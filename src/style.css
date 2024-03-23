@@ -1,0 +1,126 @@
+:root{
+    --verde: #30a7a5;
+    --branco: #e4eff5;
+}
+
+@font-face {
+        font-family: eras-medium-itc;
+        src: url(assets/eras-medium-itc-maisfontes.0ccb/eras-medium-itc.ttf);
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: eras-medium-itc;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+
+
+
+/* _______________ BARRA DE NAVEGAÇÃO _______________ */
+
+header {
+    width: 100%;
+    background-color: var(--verde);
+    padding: 1em;
+    text-align: right;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.323) 0px 1px 15px 1px;
+}
+
+header img {
+    width: 3em;
+    float: left;
+    margin: 0;
+}
+
+#navbarLinks {
+    
+    margin: 0.5em 0;
+}
+
+header a{
+    margin: 0 0.5em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--branco);
+}
+
+a:hover {
+    font-size: 1.1em;
+    transition: linear 0.3s;
+}
+
+
+
+/* _______________ CORPO _______________ */
+
+h1 {
+    font-size: 4em;
+    width: fit-content;
+    margin-left: 1.5em;
+}
+
+#titulo {
+    background-color: var(--verde);
+    color: #fff;
+    padding: 17em 0;
+    width: 100%;
+    margin: 0em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 2em;
+    color: var(--verde);
+}
+
+p {
+    font-size: 1.5em;
+}
+
+span {
+    font-weight: 600;
+}
+
+section {
+    width: 70%;
+    margin:  auto;
+    padding: 5em 0;
+}
+
+
+
+
+/* _______________ RODAPÉ _______________ */
+
+footer {
+    width: 100%;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 2em;
+    text-align: right;
+}
+
+footer img {
+    width: 10em;
+    float: left;
+    margin: 2em 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+li {
+    padding: 0.6em 0;
+}
